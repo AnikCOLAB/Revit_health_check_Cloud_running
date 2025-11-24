@@ -1,0 +1,122 @@
+{
+  "General Statistics": {
+    "File Size": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Total Element Count": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Model Elements": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Annotative Elements": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Imported Raster Images": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Linked DWGs": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Model Groups": {
+      "Value": 200,
+      "Consider": false
+    },
+    "Detail Groups": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Design Options": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Number of Levels": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Number of Grid Lines": {
+      "Value": 0,
+      "Consider": false
+    }
+  },
+  "Building Systems": {
+    "Unconnected Ducts": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Unconnected Electrical": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Unconnected Pipe": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Non-native Object Styles": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Mirrored Elements": {
+      "Value": 0,
+      "Consider": false
+    }
+  },
+  "Performance Impacts": {
+    "Errors & Warnings": {
+      "Value": 0,
+      "Consider": true
+    },
+    "Imported DWG & SKP": {
+      "Value": 0,
+      "Consider": true
+    },
+    "Purgeable Elements": {
+      "Value": 0,
+      "Consider": true
+    },
+    "Redundant and Unenclosed Rooms": {
+      "Value": 0,
+      "Consider": true
+    },
+    "Unplaced Rooms": {
+      "Value": 0,
+      "Consider": true
+    },
+    "Duplicate Modeled Elements": {
+      "Value": 0,
+      "Consider": true
+    },
+    "Views Not On Sheets": {
+      "Value": 20,
+      "Consider": true
+    }
+  },
+  "File Size Breakthrough": {
+    "Families over 5 MB": {
+      "Value": 0,
+      "Consider": true
+    },
+    "In-Place Families": {
+      "Value": 0,
+      "Consider": true
+    },
+    "Total MB of Families": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Total Family Count": {
+      "Value": 0,
+      "Consider": false
+    },
+    "Largest Families":{
+      "Value": 12,
+      "Consider": true
+    }
+  }
+}
