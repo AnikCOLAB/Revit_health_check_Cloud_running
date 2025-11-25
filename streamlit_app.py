@@ -102,8 +102,10 @@ with st.sidebar:
 
         buf = io.BytesIO(temp_excel_sheet.getvalue())
         st.session_state.current_record = load_record(buf)
+        project_name = None
     else:
         st.session_state.current_record = load_record(excel_file_name)
+        project_name = "Sample Project"
 
     if st.button("Configure Standards", use_container_width=True):
         configure_standards()
@@ -116,11 +118,12 @@ with st.sidebar:
 
 with column_C1:
     #sets the title of the page
-    df_files = st.session_state.current_record["files"]
-    raw_project = df_files.iloc[1,1]
-    s = str(raw_project).strip()
-    base = os.path.basename(s)
-    project_name = os.path.splitext(base)[0]
+    if project_name is None:
+        df_files = st.session_state.current_record["files"]
+        raw_project = df_files.iloc[1,1]
+        s = str(raw_project).strip()
+        base = os.path.basename(s)
+        project_name = os.path.splitext(base)[0]
 
     st.header(project_name)
     report_date = df_files.iloc[1,0]
