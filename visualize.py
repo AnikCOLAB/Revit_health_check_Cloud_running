@@ -90,7 +90,7 @@ def mark_metric(df, standard_dict, list_item, title_item, variable=False, value_
 
 
     if consider_check and (variable != int(standard)):
-        if variable > int(standard):
+        if int(variable) > int(standard):
             background_color = "#FFEEEE"
             value_color = "#FF0000"
 
