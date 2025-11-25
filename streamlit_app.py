@@ -118,8 +118,8 @@ with st.sidebar:
 
 with column_C1:
     #sets the title of the page
+    df_files = st.session_state.current_record["files"]
     if project_name is None:
-        df_files = st.session_state.current_record["files"]
         raw_project = df_files.iloc[1,1]
         s = str(raw_project).strip()
         base = os.path.basename(s)
